@@ -204,19 +204,23 @@ table th
   border: 1px solid #fff;
 }
 
-.checkbox-md {
+.checkbox-md,.radio-md {
   scale: 1.2;
   }
  
 
 
-.checkbox-lg {
+.checkbox-lg,.radio-lg {
   scale: 1.4;
   }
  
  
- .checkbox-xl {
+.checkbox-xl,.radio-xl {
   scale: 1.7;
   }
  
  
+textarea.form-control {
+    padding: 5px !important;
+    line-height: normal !important;
+}
