@@ -227,5 +227,6 @@ textarea.form-control {
 }
 
 th,td{
-  white-space:break-spaces;
+  /* white-space:break-spaces; */
+  white-space: normal;
 }
