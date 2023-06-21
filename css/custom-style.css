@@ -226,7 +226,7 @@ textarea.form-control {
     line-height: normal !important;
 }
 
-th,td{
+.table th, .table td {
   /* white-space:break-spaces; */
-  white-space: normal;
+  white-space: normal !important;
 }
