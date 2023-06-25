@@ -232,3 +232,8 @@ textarea.form-control {
   line-height: normal !important;
     
 }
+
+.background-none
+{
+  background: none;
+}
