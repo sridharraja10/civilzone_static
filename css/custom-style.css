@@ -237,3 +237,8 @@ textarea.form-control {
 {
   background: none;
 }
+
+.form-select{
+  padding: 0.175rem 2.25rem 0.175rem 0.75rem !important;
+}
+
