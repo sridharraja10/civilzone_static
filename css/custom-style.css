@@ -132,6 +132,7 @@ label
     font-size: 15px;
     border-collapse: collapse;
     padding: 25px;
+    width: 100%;
   }
 
  .mobile-responsive table td:last-child {
