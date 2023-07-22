@@ -231,7 +231,6 @@ textarea.form-control {
   /* white-space:break-spaces; */
   white-space: normal !important;
   line-height: normal !important;
-    
 }
 
 .background-hover-none:hover
@@ -243,3 +242,7 @@ textarea.form-control {
   padding: 0.175rem 2.25rem 0.175rem 0.75rem !important;
 }
 
+
+input[type='date'] {
+  width: 200px;
+}
