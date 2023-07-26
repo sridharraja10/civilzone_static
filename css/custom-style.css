@@ -254,3 +254,8 @@ input[type='date'] {
     z-index: 10;
     background: #fff;
 }
+
+.strikethrough
+{
+  text-decoration: line-through;
+}
