@@ -259,3 +259,8 @@ input[type='date'] {
 {
   text-decoration: line-through;
 }
+
+.sidebar {
+  height: 100vh;
+  overflow: auto;
+}
