@@ -13369,7 +13369,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #dedede;
   background-clip: border-box;
   border: 1px solid #e3e3e3;
   border-radius: 20px;
@@ -20057,7 +20057,7 @@ code {
 
 /* Footer */
 .footer {
-  background: #F4F5F7;
+  background: #cecdcd;
   color: color(dark);
   padding: 30px 2.45rem;
   transition: all 0.25s ease;
@@ -20370,7 +20370,7 @@ code {
   padding-top: 16px;
   padding-bottom: 16px;
   z-index: 10;
-  background: #F4F5F7;
+  background: #cecdcd;
 }
 
 .doc-content {
@@ -25845,7 +25845,7 @@ dl li {
   /* border: 1px solid #dee2e6; */
   border-top: 0;
   /*padding: 2rem 1rem;*/
-  /*text-align: justify;*/
+  /* text-align: justify; */
 }
 
 .tab-content.tab-content-vertical {
@@ -28898,7 +28898,7 @@ div.tagsinput span.tag a {
 }
 
 .content-wrapper {  
-  background: #F4F5F7;
+  background: #cecdcd;
   padding: 0rem 2.187rem 1.5rem 3.5rem;
   width: 100%;
   -webkit-flex-grow: 1;
@@ -28914,7 +28914,7 @@ div.tagsinput span.tag a {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 97px);
-  background: #F4F5F7;
+  background: #cecdcd;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   padding: 0;
@@ -29286,7 +29286,7 @@ div.tagsinput span.tag a {
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
   box-shadow: none;
-  background: #F4F5F7;
+  background: #cecdcd;
   /* Navbar color variations */
 }
 
@@ -29295,7 +29295,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-brand-wrapper {
-  background: #F4F5F7;
+  background: #cecdcd;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
@@ -29311,7 +29311,7 @@ div.tagsinput span.tag a {
 
 @media (max-width: 991px) {
   .sidebar-dark .navbar .navbar-brand-wrapper {
-    background: #F4F5F7;
+    background: #cecdcd;
   }
 }
 
@@ -29399,7 +29399,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-menu-wrapper {
-  background: #F4F5F7;
+  background: #cecdcd;
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
   -moz-transition: width 0.25s ease;
@@ -30621,7 +30621,8 @@ div.tagsinput span.tag a {
   .sidebar-icon-only .navbar .navbar-brand-wrapper {
     width: 70px;
     padding-left: 1.625rem;
-    background: #fff;
+    /*background: #fff;*/
+    border-right: 1px solid #fff;
   }
   .sidebar-dark.sidebar-icon-only .navbar .navbar-brand-wrapper .navbar-toggler {
     color: #484848;
@@ -30637,7 +30638,8 @@ div.tagsinput span.tag a {
   }
   .sidebar-icon-only .sidebar {
     width: 70px;
-    background: #fff;
+    /*background: #fff;*/
+    border-right: 1px solid #fff;
   }
   .sidebar-icon-only .sidebar .nav {
     overflow: visible;
